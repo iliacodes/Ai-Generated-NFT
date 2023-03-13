@@ -10,7 +10,7 @@ contract NFT is ERC721URIStorage {
     Counters.Counter private tokenId; // our constructor function calls the ERC721
 
     // passing two arguments for name and symbol respectively
-    constructor() ERC721("UVLabs", "UVL") {} // defining a function mint which takes a recipient's address and a tokenURI as an argument
+    constructor() ERC721("Grid-Citizens", "GRID") {} // defining a function mint which takes a recipient's address and a tokenURI as an argument
 
     function mint(
         address recipientAddress,
